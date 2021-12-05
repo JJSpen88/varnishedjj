@@ -1,13 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Architects+Daughter&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p, a{
+  color: #fff;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif 'Amatic SC', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #1581BB;
 }
 
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn{
+  padding: 12px, 32px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.btn-light{
+  background: rgba(255, 255, 255, .2);
+}
+
+.btn:hover{
+  background: rgba(0, 0, 0, .4);
 }

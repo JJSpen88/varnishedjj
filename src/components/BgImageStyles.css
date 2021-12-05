@@ -1,0 +1,69 @@
+
+#backgroundphoto {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    left:8rem;
+    
+    
+    
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+
+}
+
+.hero .content{
+    text-align: center;
+    position:absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 10vh;
+}
+
+.hero .content h1{
+    font-size: 8rem;
+    font-family: 'Amatic SC';
+    color: #FFBF17;
+}
+
+.hero p{
+    font-size: 3rem;
+    font-weight: 550;
+    font-family: 'Amatic SC';
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: #FFBF17;
+}
+
+.hero .btn {
+    margin: 1rem .3rem;
+    color: #FFBF17;
+
+}
+
+
+@media screen and (max-width: 640px){
+    #backgroundphoto{
+        left: 0;
+    }
+
+    .hero .content h1{
+        font-size: 6rem;
+    }
+    .hero p{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+
+
